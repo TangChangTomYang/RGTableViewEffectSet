@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14655BD1222E1C0000B3D38B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14655BD0222E1C0000B3D38B /* AppDelegate.m */; };
+		14655BD7222E1C0000B3D38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14655BD5222E1C0000B3D38B /* Main.storyboard */; };
+		14655BD9222E1C0100B3D38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14655BD8222E1C0100B3D38B /* Assets.xcassets */; };
+		14655BDC222E1C0100B3D38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14655BDA222E1C0100B3D38B /* LaunchScreen.storyboard */; };
+		14655BDF222E1C0100B3D38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14655BDE222E1C0100B3D38B /* main.m */; };
+		14655BE7222E22DF00B3D38B /* RGTableViewEffectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14655BE6222E22DF00B3D38B /* RGTableViewEffectController.m */; };
+		14655BEA222E307300B3D38B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14655BE9222E307300B3D38B /* UIView+Extension.m */; };
+		14655BEF222E3FBC00B3D38B /* PresentAsPopVer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14655BEE222E3FBC00B3D38B /* PresentAsPopVer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14655BCC222E1C0000B3D38B /* RGTableViewEffectSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGTableViewEffectSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14655BCF222E1C0000B3D38B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14655BD0222E1C0000B3D38B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14655BD6222E1C0000B3D38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14655BD8222E1C0100B3D38B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14655BDB222E1C0100B3D38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14655BDD222E1C0100B3D38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14655BDE222E1C0100B3D38B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14655BE5222E22DF00B3D38B /* RGTableViewEffectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGTableViewEffectController.h; sourceTree = "<group>"; };
+		14655BE6222E22DF00B3D38B /* RGTableViewEffectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGTableViewEffectController.m; sourceTree = "<group>"; };
+		14655BE8222E307300B3D38B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		14655BE9222E307300B3D38B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		14655BED222E3FBC00B3D38B /* PresentAsPopVer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentAsPopVer.h; sourceTree = "<group>"; };
+		14655BEE222E3FBC00B3D38B /* PresentAsPopVer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentAsPopVer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14655BC9222E1C0000B3D38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14655BC3222E1C0000B3D38B = {
+			isa = PBXGroup;
+			children = (
+				14655BCE222E1C0000B3D38B /* RGTableViewEffectSet */,
+				14655BCD222E1C0000B3D38B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14655BCD222E1C0000B3D38B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14655BCC222E1C0000B3D38B /* RGTableViewEffectSet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14655BCE222E1C0000B3D38B /* RGTableViewEffectSet */ = {
+			isa = PBXGroup;
+			children = (
+				14655BCF222E1C0000B3D38B /* AppDelegate.h */,
+				14655BD0222E1C0000B3D38B /* AppDelegate.m */,
+				14655BEB222E3D5700B3D38B /* 绚丽的tableView */,
+				14655BE8222E307300B3D38B /* UIView+Extension.h */,
+				14655BEC222E3F9B00B3D38B /* presnetAsPopVer */,
+				14655BE9222E307300B3D38B /* UIView+Extension.m */,
+				14655BD5222E1C0000B3D38B /* Main.storyboard */,
+				14655BD8222E1C0100B3D38B /* Assets.xcassets */,
+				14655BDA222E1C0100B3D38B /* LaunchScreen.storyboard */,
+				14655BDD222E1C0100B3D38B /* Info.plist */,
+				14655BDE222E1C0100B3D38B /* main.m */,
+			);
+			path = RGTableViewEffectSet;
+			sourceTree = "<group>";
+		};
+		14655BEB222E3D5700B3D38B /* 绚丽的tableView */ = {
+			isa = PBXGroup;
+			children = (
+				14655BE5222E22DF00B3D38B /* RGTableViewEffectController.h */,
+				14655BE6222E22DF00B3D38B /* RGTableViewEffectController.m */,
+			);
+			path = "绚丽的tableView";
+			sourceTree = "<group>";
+		};
+		14655BEC222E3F9B00B3D38B /* presnetAsPopVer */ = {
+			isa = PBXGroup;
+			children = (
+				14655BED222E3FBC00B3D38B /* PresentAsPopVer.h */,
+				14655BEE222E3FBC00B3D38B /* PresentAsPopVer.m */,
+			);
+			path = presnetAsPopVer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14655BCB222E1C0000B3D38B /* RGTableViewEffectSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14655BE2222E1C0100B3D38B /* Build configuration list for PBXNativeTarget "RGTableViewEffectSet" */;
+			buildPhases = (
+				14655BC8222E1C0000B3D38B /* Sources */,
+				14655BC9222E1C0000B3D38B /* Frameworks */,
+				14655BCA222E1C0000B3D38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGTableViewEffectSet;
+			productName = RGTableViewEffectSet;
+			productReference = 14655BCC222E1C0000B3D38B /* RGTableViewEffectSet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14655BC4222E1C0000B3D38B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yangrui;
+				TargetAttributes = {
+					14655BCB222E1C0000B3D38B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 14655BC7222E1C0000B3D38B /* Build configuration list for PBXProject "RGTableViewEffectSet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14655BC3222E1C0000B3D38B;
+			productRefGroup = 14655BCD222E1C0000B3D38B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14655BCB222E1C0000B3D38B /* RGTableViewEffectSet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14655BCA222E1C0000B3D38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14655BDC222E1C0100B3D38B /* LaunchScreen.storyboard in Resources */,
+				14655BD9222E1C0100B3D38B /* Assets.xcassets in Resources */,
+				14655BD7222E1C0000B3D38B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14655BC8222E1C0000B3D38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14655BDF222E1C0100B3D38B /* main.m in Sources */,
+				14655BD1222E1C0000B3D38B /* AppDelegate.m in Sources */,
+				14655BEA222E307300B3D38B /* UIView+Extension.m in Sources */,
+				14655BEF222E3FBC00B3D38B /* PresentAsPopVer.m in Sources */,
+				14655BE7222E22DF00B3D38B /* RGTableViewEffectController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14655BD5222E1C0000B3D38B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14655BD6222E1C0000B3D38B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14655BDA222E1C0100B3D38B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14655BDB222E1C0100B3D38B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14655BE0222E1C0100B3D38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14655BE1222E1C0100B3D38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14655BE3222E1C0100B3D38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RGTableViewEffectSet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangrui.RGTableViewEffectSet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14655BE4222E1C0100B3D38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RGTableViewEffectSet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangrui.RGTableViewEffectSet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14655BC7222E1C0000B3D38B /* Build configuration list for PBXProject "RGTableViewEffectSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14655BE0222E1C0100B3D38B /* Debug */,
+				14655BE1222E1C0100B3D38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14655BE2222E1C0100B3D38B /* Build configuration list for PBXNativeTarget "RGTableViewEffectSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14655BE3222E1C0100B3D38B /* Debug */,
+				14655BE4222E1C0100B3D38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14655BC4222E1C0000B3D38B /* Project object */;
+}
